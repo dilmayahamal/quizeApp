@@ -14,12 +14,12 @@ function StartScreen() {
           <p className="text-left italic">Pick a subject to get started.</p>
         </div>
 
-        <div className="flex w-full flex-col items-center gap-[20px] md:w-[50%] ">
+        <div className="flex w-full flex-col items-center gap-[20px] md:w-[50%]">
           {questions.map((q, i) => {
             return (
               <div
                 key={q.title}
-                className="option flex gap-[10px]"
+                className="option flex gap-[10px] before:hover:bg-sky-700 hover:text-sky-600"
                 onClick={() => dispatch({ type: "start", payload: i })}
               >
                 <img src={q.icon} alt={q.title} className="w-[30px]" />

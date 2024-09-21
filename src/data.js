@@ -202,7 +202,7 @@ export const quizData = {
           options: [
             "8611.45","8848.86","8948.66","9948.76"
           ],
-          answer: "8848.86 ",
+          answer: "8848.86",
         },
         {
           question: "Which one of the following is not a land locked country?",
